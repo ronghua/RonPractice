@@ -103,7 +103,7 @@ foreach($response->businesses as $business):
 //        echo $business->zip ."<br/>";
 //        echo $business->latitude ."<br/>";
 //        echo $business->longitude ."<br/>";
-		echo $business->phone "</br>"
+		echo $business->phone "</br>";
 
         echo "<hr>";
     endforeach;
