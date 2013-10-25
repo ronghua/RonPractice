@@ -26,6 +26,8 @@ $city=$obj->{'city'};
 $state=$obj->{'region'};
 print("You are at $city in $state <br>");
 
+print("<br>");
+print("<br>");
 
 
 
@@ -91,30 +93,18 @@ curl_setopt($ch, CURLOPT_HEADER, 0);
 $data = curl_exec($ch); // Yelp response
 curl_close($ch);
 
-
 // Handle Yelp response data
 $response = json_decode($data);
 
 foreach($response->businesses as $business):
         echo "<img border=0 src='".$business->image_url."'><br/>";
         echo $business->name."<br/>";
-//        echo $business->location.city ."<br/>";
-//        echo $business->location.state_code ."<br/>";
-//        echo $business->zip ."<br/>";
-//        echo $business->latitude ."<br/>";
-//        echo $business->longitude ."<br/>";
 		echo $business->phone "</br>";
-
         echo "<hr>";
     endforeach;
 
-
-
-
 // Print it for debugging
 //print_r($response);
-
-
 
 
 ?>
