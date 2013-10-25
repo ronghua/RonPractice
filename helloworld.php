@@ -42,7 +42,7 @@ require_once ('OAuth.php');
 
 // For example, request business with id 'the-waterboy-sacramento'
 //$unsigned_url = "http://api.yelp.com/v2/business/the-waterboy-sacramento";
-$unsigned_url = "http://api.yelp.com/v2/search?term=cream+puffs&location=San+Francisco";
+$unsigned_url = "http://api.yelp.com/v2/search?term=Chinese+Food&location=Fremont+California";
 
 //$yelpstring = file_get_contents("http://api.yelp.com/business_review_search?category=bars&lat=".$latitude."&long=".$longitude."&radius=25&num_biz_requested=100&ywsid=<your yelp account id>", true); 
 
