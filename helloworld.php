@@ -51,10 +51,10 @@ $unsigned_url = "http://api.yelp.com/v2/business/the-waterboy-sacramento";
 
 
 // Set your keys here
-$consumer_key = "";
-$consumer_secret = "";
-$token = "";
-$token_secret = "";
+$consumer_key = "M44itCk1vYxpqJJL_CmjMg";
+$consumer_secret = "DRG9GUQiJvlfufXd3p8DlA8zHOA";
+$token = "_k7AmKTWmBglmPNnLs8xJGNtJBRq4elB";
+$token_secret = "dwTWziQ2XMMzsJVcAtlpj27CQKI";
 
 
 // Token object built using the OAuth library
