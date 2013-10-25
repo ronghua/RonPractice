@@ -96,14 +96,14 @@ curl_close($ch);
 $response = json_decode($data);
 
 foreach($response->businesses as $business):
-        echo "<img border=0 src='".$business->photo_url."'><br/>";
+        echo "<img border=0 src='".$business->image_url."'><br/>";
         echo $business->name."<br/>";
-        echo $business->address1."<br/>";
-        echo $business->city ."<br/>";
-        echo $business->state ."<br/>";
+        echo $business->location.city ."<br/>";
+        echo $business->location.state_code ."<br/>";
         echo $business->zip ."<br/>";
         echo $business->latitude ."<br/>";
         echo $business->longitude ."<br/>";
+		echo $business->phone "</br>"
 
         echo "<hr>";
     endforeach;
@@ -112,7 +112,7 @@ foreach($response->businesses as $business):
 
 
 // Print it for debugging
-print_r($response);
+//print_r($response);
 
 
 
