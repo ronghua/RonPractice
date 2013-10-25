@@ -1,4 +1,6 @@
 
+<HTML>
+<HEAD>
 <TITLE> Hello World in PHP </TITLE>
 </HEAD>
 <BODY>
