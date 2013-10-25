@@ -98,11 +98,11 @@ $response = json_decode($data);
 foreach($response->businesses as $business):
         echo "<img border=0 src='".$business->image_url."'><br/>";
         echo $business->name."<br/>";
-        echo $business->location.city ."<br/>";
-        echo $business->location.state_code ."<br/>";
-        echo $business->zip ."<br/>";
-        echo $business->latitude ."<br/>";
-        echo $business->longitude ."<br/>";
+//        echo $business->location.city ."<br/>";
+//        echo $business->location.state_code ."<br/>";
+//        echo $business->zip ."<br/>";
+//        echo $business->latitude ."<br/>";
+//        echo $business->longitude ."<br/>";
 		echo $business->phone "</br>"
 
         echo "<hr>";
