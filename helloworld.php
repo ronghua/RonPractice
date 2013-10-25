@@ -100,8 +100,8 @@ $response = json_decode($data);
 
 foreach($response->businesses as $business):
         //echo "<img border=0 src='".$business->photo_url."'><br/>";
-        echo "<a href=".$business->mobile_url."";	
-		echo $business->name ."</a><br/>";
+        echo $business->mobile_url ."<br/>";
+		echo $business->name ."<br/>";
 		echo $business->phone ."<br/>";
         echo $business->city ."<br/>";
         echo $business->state ."<br/>";
