@@ -106,7 +106,7 @@ $response = json_decode($data);
     // endforeach;
 
 // Print it for debugging
-/print_r($response);
+print_r($response);
 
 
 ?>
