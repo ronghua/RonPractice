@@ -95,6 +95,21 @@ curl_close($ch);
 // Handle Yelp response data
 $response = json_decode($data);
 
+foreach($response->businesses as $business):
+        echo "<img border=0 src='".$business->photo_url."'><br/>";
+        echo $business->name."<br/>";
+        echo $business->address1."<br/>";
+        echo $business->city ."<br/>";
+        echo $business->state ."<br/>";
+        echo $business->zip ."<br/>";
+        echo $business->latitude ."<br/>";
+        echo $business->longitude ."<br/>";
+
+        echo "<hr>";
+    endforeach;
+
+
+
 
 // Print it for debugging
 print_r($response);
