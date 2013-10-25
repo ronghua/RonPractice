@@ -20,6 +20,11 @@ print_r($details);
 
 print("<br>");
 
+$hello = "hello world!";
+
+print($hello);
+print("<br>");
+
 $city=$details["city"];
 $state=$details["region"];
 print("You are at $city in $state <br>");
