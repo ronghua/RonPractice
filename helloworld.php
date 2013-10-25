@@ -37,7 +37,7 @@ print("You are at $city in $state <br>");
 
 
 // Enter the path that the oauth library is in relation to the php file
-require_once ('lib/OAuth.php');
+require_once ('OAuth.php');
 
 
 // For example, request business with id 'the-waterboy-sacramento'
