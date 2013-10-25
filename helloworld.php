@@ -18,8 +18,10 @@ $ip = $_SERVER['REMOTE_ADDR'];
 $details = file_get_contents("http://ipinfo.io/{$ip}");
 print_r($details);
 
-$city=$details['city'];
-$state=$details['region'];
+print("<br>");
+
+$city=$details["city"];
+$state=$details["region"];
 print("You are at $city in $state <br>");
 
 ?>
