@@ -25,8 +25,10 @@ $hello = "hello world!";
 print($hello);
 print("<br>");
 
-$city=$details["city"];
-$state=$details["region"];
+$obj = json_decode($details);
+
+$city=$obj->{'city'};
+$state=$obj->{'region'};
 print("You are at $city in $state <br>");
 
 ?>
