@@ -20,8 +20,6 @@ print_r($details);
 
 print("<br>");
 
-$hello = "hello world!";
-
 print($hello);
 print("<br>");
 
